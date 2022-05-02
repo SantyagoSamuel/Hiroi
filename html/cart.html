@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Carrito</title>
+</head>
+<body>
+    <header class="cabecera">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../assets/images/logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="buscador">
+            <label><input type="search" placeholder="Buscar"></label>
+            <button><i class='bx bx-search'></i></button>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="../html/sing-in.html">
+                    <i class='bx bxs-user'></i>
+                    <p>Ingresar</p>
+                </a></li>
+                <li><a href="../html/cart.html">
+                    <i class='bx bxs-cart-alt'></i>
+                    <p>Agregar</h1></p>
+                </a></li> 
+            </ul> 
+        </div>
+    </header>
+    <!--Aqui inicia la seccion del carrito-->
+    <div class="carrito">
+        <p>Carrito de compras:</p>
+
+        <section class="galeria">
+            <div class="articulo">
+                <img src="../assets/images/prod2.jpg" alt="">
+                <div class="infoProduct"> 
+                </div>
+            </div>
+
+            <div class="articulo">
+                <div class="infoProduct">
+                    <h1>PRODUCTO</h1>
+                    <p>Laptop Gamer Acer</p>
+                    <p><span>$35,999</span></p>
+                </div>
+            </div>
+
+            <div class="articulo">
+                <div class="infoProduct">
+                    <h1>CANTIDAD</h1><br>
+                    <input type="number" value="1" min="1" max="100">
+                </div>
+            </div>
+
+            <div class="articulo">
+                <div class="infoProduct">
+                    <h1>DESCRIPCIÓN</h1>
+                    <p><span>Aqui va la descripción del producto</span></p>
+                </div>
+            </div>
+        </section>
+
+        <div class="descripcion">
+            <input type="text" value="Aqui veras tus productos con descripción y precio" readonly class="recuadro">
+            <br><input type="submit" value="Pedir" class="boton" onclick="location.href='./add-address.html'"><br><br>
+        </div>
+    </div>
+    <!--Aqui termina la seccion de carrito-->
+
+    <section class="descripcion">
+        <p>
+            <span>¡Venta de productos de Belleza, Bolsas, Ropa, Tecnología y más!</span>
+        </p>
+        <p>
+            Precios bajos, gran variedad de  productos, seguridad al momento de comprar y disponibilidad son pocos de
+            los beneficios que Konni Hiroi trae para ti. A través de nuestra página podrás encontrar más de 35,000
+            productos sin la necesidad de salir de tu hogar. Además que gracias a nuestro envío asegurado no tendrás
+            que preocuparte por recoger tu mercancía.
+        </p>
+    </section>
+
+    <footer class="footer">
+        <div class="redes-sociales">
+            <p>Nuestras redes sociales</p>
+            <div class="redes-iconos">
+                <a href="https://www.facebook.com/KonniHiroi">
+                    <i class='bx bxl-facebook-square'></i>
+                    Konni Hiroi
+                </a>
+                <a href="https://www.instagram.com/konnihiroi/">
+                    <i class='bx bxl-instagram' ></i>
+                    Konni Hiroi
+                </a>
+                <a href="https://www.tiktok.com/@konnihiroi">
+                    <i class='bx bxl-tiktok' ></i>
+                    Konni Hiroi
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
